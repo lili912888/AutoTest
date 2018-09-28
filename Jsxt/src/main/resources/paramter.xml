@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="parameter">
+    <test name="para">
+        <classes>
+           <parameter name="name" value="zhangsan"/>
+            <parameter name="age" value="23"/>
+            <class name="com.jsxtInterface.test.paramter.ParamterTest"/>
+
+        </classes>
+    </test>
+</suite>

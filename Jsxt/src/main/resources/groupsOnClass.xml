@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ <suite name="suitname">
+    <test name="runAll">
+      <classes>
+          <class name="com.jsxtInterface.test.groups.GroupOnClasss1"/>
+          <class name="com.jsxtInterface.test.groups.GroupOnClasss2"/>
+          <class name="com.jsxtInterface.test.groups.GroupOnClasss3"/>
+      </classes>
+</test>
+    <test  name="onlyrunstudent">
+       <groups>
+           <run>
+               <include name="stu"/>
+           </run>
+
+       </groups>
+
+        <classes>
+            <class name="com.jsxtInterface.test.groups.GroupOnClasss1"/>
+            <class name="com.jsxtInterface.test.groups.GroupOnClasss2"/>
+            <class name="com.jsxtInterface.test.groups.GroupOnClasss3"/>
+        </classes>
+    </test>
+</suite>
