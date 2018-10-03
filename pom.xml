@@ -5,22 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.jdjr.code</groupId>
-    <artifactId>Jsxt</artifactId>
+    <artifactId>Chapter</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>../Reportng</module>
-        <module>Mock</module>
-    </modules>
+     <modules>
+         <module>Jsxt</module>
+         <module>Reportng</module>
+     </modules>
 
-
-    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-    <dependencies>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.11</version>
-        </dependency>
-    </dependencies>
 
 </project>
